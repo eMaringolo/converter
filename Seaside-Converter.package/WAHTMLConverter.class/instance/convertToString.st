@@ -2,4 +2,5 @@ converting
 convertToString
 	
 	self parseInput.
-	self document children first .
+	self process: self document root firstElement firstElement root: true.
+	^self output contents
