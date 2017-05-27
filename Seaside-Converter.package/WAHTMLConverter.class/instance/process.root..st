@@ -6,13 +6,13 @@ process: element root: aBoolean
 				space ].
 	self
 		write: (self selectorForElement: element).
-	element attributes notEmpty ifTrue: [ self space ].
+	(forceWith or: [element attributes notEmpty]) ifTrue: [ self space ].
 	self processCoreAttributesOf: element.
 	self processNonCoreAttributesOf: element.
 	
 	element hasChildren
 		ifTrue: [ 
-			element attributes notEmpty ifTrue: [self write: 'with'].
+			(forceWith or: [element attributes notEmpty]) ifTrue: [self write: 'with'].
 			self write: ': '.
 			(element nodes size = 1 and: [ element nodes first isElement not])
 				ifTrue: [ self

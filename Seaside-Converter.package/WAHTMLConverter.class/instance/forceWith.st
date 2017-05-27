@@ -1,0 +1,3 @@
+configuration
+forceWith
+	forceWith := true

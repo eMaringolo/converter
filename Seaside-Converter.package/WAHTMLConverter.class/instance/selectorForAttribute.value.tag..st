@@ -1,4 +1,5 @@
-accessing
+mappings
 selectorForAttribute: attributeName value: value tag: tag
-	
-	^self attributeMappings at: attributeName ifAbsent: [ nil ]
+	^ self attributeMappings
+		at: tag
+		ifPresent: [ :table | table at: attributeName ifAbsent: [ nil ] ]

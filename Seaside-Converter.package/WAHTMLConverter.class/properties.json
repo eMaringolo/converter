@@ -10,7 +10,9 @@
 		"parser",
 		"mappings",
 		"output",
-		"document" ],
+		"document",
+		"forceWith",
+		"attributeMappings" ],
 	"name" : "WAHTMLConverter",
 	"pools" : [
 		 ],
