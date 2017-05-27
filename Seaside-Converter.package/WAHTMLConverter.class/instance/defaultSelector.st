@@ -1,0 +1,3 @@
+mappings
+defaultSelector
+	^'div'
