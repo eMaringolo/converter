@@ -1,0 +1,14 @@
+{
+	"category" : "Seaside-Tests-Converter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"converter" ],
+	"name" : "WAHTMLConverterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
