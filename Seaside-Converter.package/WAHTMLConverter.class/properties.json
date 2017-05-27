@@ -1,0 +1,18 @@
+{
+	"category" : "Seaside-Converter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"parser",
+		"mappings",
+		"output",
+		"document" ],
+	"name" : "WAHTMLConverter",
+	"pools" : [
+		 ],
+	"super" : "GRObject",
+	"type" : "normal" }
