@@ -33,8 +33,8 @@ html
                                 altText: 'Seaside logo';
                                 yourself ].
                     html tableData
-                        attributeAt: 'colspan' put: '2';
-                        attributeAt: 'rowspan' put: '2';
+                        colSpan: '2';
+                        rowSpan: '2';
                         with: [ html unorderedList
                                 style: 'list-style-type:square';
                                 with: [ html listItem: 'Coffee'.
