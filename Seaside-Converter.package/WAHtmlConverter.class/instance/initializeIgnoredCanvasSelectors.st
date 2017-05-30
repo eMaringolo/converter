@@ -1,0 +1,3 @@
+initializing
+initializeIgnoredCanvasSelectors
+	ignoredCanvasSelectors := Set new

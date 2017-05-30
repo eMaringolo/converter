@@ -1,0 +1,23 @@
+{
+	"category" : "Seaside-Converter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanMaringolo 5/28/2017 23:26",
+	"instvars" : [
+		"input",
+		"parser",
+		"mappings",
+		"output",
+		"document",
+		"forceWith",
+		"attributeMappings",
+		"canvasVariable",
+		"tagMappings",
+		"ignoredCanvasSelectors" ],
+	"name" : "WAHtmlConverter",
+	"pools" : [
+		 ],
+	"super" : "GRObject",
+	"type" : "normal" }

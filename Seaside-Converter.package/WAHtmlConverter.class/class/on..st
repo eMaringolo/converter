@@ -2,5 +2,5 @@ instance creation
 on: aReadStream 
 	
 	^self new 
-		setInput: aReadStream;
+		setInput: aReadStream readStream;
 		yourself

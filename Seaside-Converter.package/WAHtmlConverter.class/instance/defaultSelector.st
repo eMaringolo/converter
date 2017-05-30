@@ -1,3 +1,3 @@
-mappings
+configuration
 defaultSelector
 	^'div'

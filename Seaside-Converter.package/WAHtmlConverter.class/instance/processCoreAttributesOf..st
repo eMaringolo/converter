@@ -1,6 +1,6 @@
 operations
 processCoreAttributesOf: element
-	#('id' 'title')
+	#('id' 'title' 'style' 'class')
 		do: [ :each | 
 			element attributes
 				at: each
