@@ -1,0 +1,16 @@
+{
+	"category" : "Seaside-Converter-Tools-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"converter",
+		"output",
+		"inputText" ],
+	"name" : "WAHtmlConverterPreviewComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
