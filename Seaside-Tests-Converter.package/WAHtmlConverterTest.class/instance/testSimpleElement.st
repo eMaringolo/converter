@@ -1,5 +1,5 @@
-as yet unclassified
+tests
 testSimpleElement
 
-	converter := WAHTMLConverter on: '<img id="logo" title="Main logo" src="foo.png" alt="Alternative text">' readStream.
+	converter := WAHtmlConverter on: '<img id="logo" title="Main logo" src="foo.png" alt="Alternative text">' readStream.
 	self assertCode: converter convertToString equals: 'html image id: ''logo''; title: ''Main logo''; url: ''foo.png''; altText: ''Alternative text''; yourself.'.

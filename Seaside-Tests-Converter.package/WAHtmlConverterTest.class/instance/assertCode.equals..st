@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 assertCode: sourceOne equals: sourceTwo
 	self
 		assert: (self formatCode: sourceOne)
